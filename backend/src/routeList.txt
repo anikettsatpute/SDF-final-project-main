@@ -1,0 +1,25 @@
+DONE /signup { POST }
+DONE /signin/{ student, faculty, admin } { HEAD }
+
+DONE /topics { GET, POST }
+DONE /topics/:id { DELETE }
+
+DONE /topics/:id/subtopics { GET, POST }
+DONE /topics/:id/subtopics/:id { DELETE }
+
+DONE /topics/:id/subtopics/:id/lectures { GET, POST }
+DONE /topics/:id/subtopics/:id/lectures/:n { DELETE }
+
+DONE /topics/:id/subtopics/:id/lectures/:n/materials { GET, POST }
+DONE /topics/:id/subtopics/:id/lectures/:n/materials/:id { DELETE }
+
+DONE /topics/:id/subtopics/:id/exams { GET, POST }       // GET includes scores
+DONE /topics/:id/subtopics/:id/exams/:id { GET, DELETE }
+DONE /topics/:id/subtopics/:id/exams/:id/submit { POST }
+
+DONE /faculty { GET, POST }
+DONE /faculty/:id { GET, DELETE }
+DONE /faculty/:id/topics { GET, POST }
+DONE /faculty/:id/topics/:id { DELETE }
+
+DONE /topics/:id/faculty { GET }

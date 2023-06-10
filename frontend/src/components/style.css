@@ -1,0 +1,153 @@
+
+.dashsizer
+{
+    font-size:1.2vw;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    min-height:100vh;
+}
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+.how-section1 h4{
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+.how-section1 .subheading{
+  color: #3931af;
+  font-size: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 10%;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 40%;
+}
+.sampu
+{
+  position: absolute;
+  top:230%;
+  left:0%;
+}
+#section-four-wrapper
+{
+font-weight:0 ;
+}
+.newpose
+{
+  position: relative;
+  top:300%;
+  left:0%;
+}
+
+.specific
+{
+  background-color:#6610f2;
+}
+.poser
+{
+  border-radius:50%;
+}
+
+/* Style for vertical navbar */
+.navigation
+{
+position:fixed;
+top:10%;
+left:0%;
+bottom:10%;
+width:15%;
+height:100%;
+border-radius:10px;
+border-left:15px solid #6610f2;
+background: #6610f2;
+box-sizing: initial;
+transition:0.5s
+}
+.navigation ul
+{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+padding-left: 5px;
+padding-top: 48px;
+}
+.navigation ul li 
+{
+position: relative;
+list-style: none;
+width: 100%;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+/* border-top-right-radius: 20px; */
+}
+.navigation ul li a
+{
+position: relative;
+display: block;
+width: 100%;
+display: flex;
+text-decoration: none;
+color: white;
+}
+
+.navigation ul li a .icon 
+{
+position: relative;
+display: block;
+min-width: 60px;
+height: 60px;
+line-height: 70px;
+text-align: center;
+}
+.navigation ul li a .icon ion-icon
+{
+font-size:1.5em;
+}
+.navigation ul li .title
+{
+position: relative;
+display: block;
+padding-left:10px;
+height: 60px;
+line-height: 60px;
+white-space: normal;
+
+}
+.navigation ul li.active
+{
+  transition:0.4s;
+background:#fff;
+}
+.navigation ul li.active a
+{
+color: #333;
+}
+/* Style for vertical navbar */
+.namers
+{
+position: relative;
+left: 6%;
+/* margin-left: -17px; */
+}
+.arrow
+{
+  width: 37rem;
+}  
+/* .arrow :hover
+{
+
+} */
+body 
+{
+  overflow-x: hidden;
+}
